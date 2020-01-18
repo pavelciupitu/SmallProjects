@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBtn {
+    color: white;
+    background-color: gray;
+    padding: 0.5rem 0.7rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+.colorBtn:hover {
+    background-color: black;
+}
