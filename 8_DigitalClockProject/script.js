@@ -46,16 +46,16 @@ showTime()
 setInterval(showTime, 1000)
 
 
-let n=10;
-let string;
-let a='"int[]{'
-let b = ""
-let c ='}"'
-for (let i=1; i<n; i++) {
-b=b+i+', '
-}
-string = a+b+n+c;
-console.log(string);
+// let n=10;
+// let string;
+// let a='"int[]{'
+// let b = ""
+// let c ='}"'
+// for (let i=1; i<n; i++) {
+// b=b+i+', '
+// }
+// string = a+b+n+c;
+// console.log(string);
 
 // //To make a object like obiect
 // let obiect = { 
@@ -74,13 +74,13 @@ console.log(string);
 // }
 // console.log(x);
 
-let st = "17:23:54";
-let array = st.split(":");
-console.log(array);
-let ore = array[0]*3600;
-let minute = array[1]*60;
-let total = ore + minute + array[2];
-console.log(total);
+// let st = "17:23:54";
+// let array = st.split(":");
+// console.log(array);
+// let ore = array[0]*3600;
+// let minute = array[1]*60;
+// let total = ore + minute + array[2];
+// console.log(total);
 
 
 // new date = string;
